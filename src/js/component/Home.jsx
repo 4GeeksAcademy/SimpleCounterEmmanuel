@@ -1,5 +1,5 @@
 import React from "react";
-import Timer from "./timer.jsx";
+import FunctionClock from "./FunctionClock.jsx";
 
 
 //include images into your bundle
@@ -7,7 +7,7 @@ import Timer from "./timer.jsx";
 //create your first component
 const Home = () => {
 	return (
-			<Timer />
+		<FunctionClock />
 	);
 };
 
